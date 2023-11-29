@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 0 5px -3px black;
+  border-radius: 10px;
+  width: 220px;
+  height: 500px;
+}
+
+h3 {
+  font-size: 30px;
+  padding: 0;
+}
+
+.img {
+  width: 180px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(109, 147, 147);
+  box-shadow: 0 0 5px -3px black;
+  width: 60px;
+}
+
+label {
+  margin-top: 10px;
+}
